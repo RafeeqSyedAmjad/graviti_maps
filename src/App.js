@@ -13,7 +13,7 @@ import {
   InputLeftElement,
   InputGroup,
 } from '@chakra-ui/react'
-import { FaBiohazard, FaMapMarkerAlt } from 'react-icons/fa'
+import {FaMapMarkerAlt } from 'react-icons/fa'
 
 import {
   useJsApiLoader,
@@ -60,12 +60,7 @@ function App() {
     setDistance(results.routes[0].legs[0].distance.text)
   }
 
-  // function clearRoute() {
-  //   setDirectionsResponse(null)
-  //   setDistance('')
-  //   originRef.current.value = ''
-  //   destiantionRef.current.value = ''
-  // }
+  
 
   return (
     <Flex
