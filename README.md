@@ -6,7 +6,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/RafeeqSyedAmjad/SpaceX-Webapp
+  git clone https://github.com/RafeeqSyedAmjad/graviti_maps
 ```
 
 Install dependencies
